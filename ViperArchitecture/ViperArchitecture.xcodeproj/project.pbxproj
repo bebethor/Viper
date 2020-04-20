@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C39432F244DBC1D00160D68 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C394328244DBC1D00160D68 /* HomePresenter.swift */; };
+		2C394330244DBC1D00160D68 /* HomeLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C394329244DBC1D00160D68 /* HomeLocalDataManager.swift */; };
+		2C394331244DBC1D00160D68 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39432A244DBC1D00160D68 /* HomeProtocols.swift */; };
+		2C394332244DBC1D00160D68 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39432B244DBC1D00160D68 /* HomeInteractor.swift */; };
+		2C394333244DBC1D00160D68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39432C244DBC1D00160D68 /* HomeView.swift */; };
+		2C394334244DBC1D00160D68 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39432D244DBC1D00160D68 /* HomeRemoteDataManager.swift */; };
+		2C394335244DBC1D00160D68 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C39432E244DBC1D00160D68 /* HomeWireFrame.swift */; };
 		2CEF125F2446F7A900D2FFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF125E2446F7A900D2FFC7 /* AppDelegate.swift */; };
 		2CEF12612446F7A900D2FFC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF12602446F7A900D2FFC7 /* SceneDelegate.swift */; };
 		2CEF12632446F7A900D2FFC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF12622446F7A900D2FFC7 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C394328244DBC1D00160D68 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		2C394329244DBC1D00160D68 /* HomeLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalDataManager.swift; sourceTree = "<group>"; };
+		2C39432A244DBC1D00160D68 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		2C39432B244DBC1D00160D68 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		2C39432C244DBC1D00160D68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2C39432D244DBC1D00160D68 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		2C39432E244DBC1D00160D68 /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
 		2CEF125B2446F7A900D2FFC7 /* ViperArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEF125E2446F7A900D2FFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CEF12602446F7A900D2FFC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C394336244DBC2500160D68 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2C394328244DBC1D00160D68 /* HomePresenter.swift */,
+				2C394329244DBC1D00160D68 /* HomeLocalDataManager.swift */,
+				2C39432A244DBC1D00160D68 /* HomeProtocols.swift */,
+				2C39432B244DBC1D00160D68 /* HomeInteractor.swift */,
+				2C39432C244DBC1D00160D68 /* HomeView.swift */,
+				2C39432D244DBC1D00160D68 /* HomeRemoteDataManager.swift */,
+				2C39432E244DBC1D00160D68 /* HomeWireFrame.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		2CEF12522446F7A900D2FFC7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +84,7 @@
 		2CEF125D2446F7A900D2FFC7 /* ViperArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				2C394336244DBC2500160D68 /* Home */,
 				2CEF125E2446F7A900D2FFC7 /* AppDelegate.swift */,
 				2CEF12602446F7A900D2FFC7 /* SceneDelegate.swift */,
 				2CEF12622446F7A900D2FFC7 /* ViewController.swift */,
@@ -140,7 +169,14 @@
 			files = (
 				2CEF12632446F7A900D2FFC7 /* ViewController.swift in Sources */,
 				2CEF125F2446F7A900D2FFC7 /* AppDelegate.swift in Sources */,
+				2C394330244DBC1D00160D68 /* HomeLocalDataManager.swift in Sources */,
 				2CEF12612446F7A900D2FFC7 /* SceneDelegate.swift in Sources */,
+				2C394331244DBC1D00160D68 /* HomeProtocols.swift in Sources */,
+				2C394333244DBC1D00160D68 /* HomeView.swift in Sources */,
+				2C394334244DBC1D00160D68 /* HomeRemoteDataManager.swift in Sources */,
+				2C39432F244DBC1D00160D68 /* HomePresenter.swift in Sources */,
+				2C394332244DBC1D00160D68 /* HomeInteractor.swift in Sources */,
+				2C394335244DBC1D00160D68 /* HomeWireFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
