@@ -18,6 +18,8 @@ class HomeView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //comunicando vista con presenter
+        presenter?.viewDidLoad()
     }
 }
 
