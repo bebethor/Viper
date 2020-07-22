@@ -65,6 +65,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		2C43381B24AC768900D54987 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2C394336244DBC2500160D68 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		2CEF12522446F7A900D2FFC7 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +92,7 @@
 		2CEF125D2446F7A900D2FFC7 /* ViperArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				2C394336244DBC2500160D68 /* Home */,
+				2C43381B24AC768900D54987 /* Scenes */,
 				2CEF125E2446F7A900D2FFC7 /* AppDelegate.swift */,
 				2CEF12602446F7A900D2FFC7 /* SceneDelegate.swift */,
 				2CEF12622446F7A900D2FFC7 /* ViewController.swift */,
