@@ -35,7 +35,7 @@ class HomeWireFrame: HomeWireFrameProtocol {
     }
     
     static var mainStoryboard: UIStoryboard {
-        return UIStoryboard(name: "HomeView", bundle: Bundle.main)
+        return UIStoryboard(name: "Main", bundle: Bundle.main)
     }
     
 }
