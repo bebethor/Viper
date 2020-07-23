@@ -14,7 +14,6 @@ class HomePresenter  {
     weak var view: HomeViewProtocol?
     var interactor: HomeInteractorInputProtocol?
     var wireFrame: HomeWireFrameProtocol?
-    
 }
 
 extension HomePresenter: HomePresenterProtocol {
