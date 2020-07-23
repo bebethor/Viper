@@ -14,12 +14,12 @@ class HomePresenter  {
     weak var view: HomeViewProtocol?
     var interactor: HomeInteractorInputProtocol?
     var wireFrame: HomeWireFrameProtocol?
-    
 }
 
 extension HomePresenter: HomePresenterProtocol {
     // TODO: implement presenter methods
     func viewDidLoad() {
+        print("ME HA LLAMADO LA VISTA")
     }
 }
 
