@@ -19,6 +19,8 @@ class HomePresenter  {
 extension HomePresenter: HomePresenterProtocol {
     // TODO: implement presenter methods
     func viewDidLoad() {
+        
+        print("HOME PRESENTER: ME HA LLAMADO HOMEVIEW")
     }
 }
 

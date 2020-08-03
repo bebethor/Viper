@@ -18,6 +18,9 @@ class HomeView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Llamando a HomePresenter a través de HomePresenterProtocol
+        presenter?.viewDidLoad()
     }
 }
 

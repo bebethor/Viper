@@ -17,8 +17,6 @@
 		2C66D26D24C9924E0043D0DD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C66D26C24C9924E0043D0DD /* Home.storyboard */; };
 		2CEF125F2446F7A900D2FFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF125E2446F7A900D2FFC7 /* AppDelegate.swift */; };
 		2CEF12612446F7A900D2FFC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF12602446F7A900D2FFC7 /* SceneDelegate.swift */; };
-		2CEF12632446F7A900D2FFC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF12622446F7A900D2FFC7 /* ViewController.swift */; };
-		2CEF12662446F7A900D2FFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEF12642446F7A900D2FFC7 /* Main.storyboard */; };
 		2CEF12682446F7AA00D2FFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEF12672446F7AA00D2FFC7 /* Assets.xcassets */; };
 		2CEF126B2446F7AA00D2FFC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEF12692446F7AA00D2FFC7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -35,8 +33,6 @@
 		2CEF125B2446F7A900D2FFC7 /* ViperArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CEF125E2446F7A900D2FFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CEF12602446F7A900D2FFC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2CEF12622446F7A900D2FFC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CEF12652446F7A900D2FFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CEF12672446F7AA00D2FFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CEF126A2446F7AA00D2FFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CEF126C2446F7AA00D2FFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,8 +85,6 @@
 			children = (
 				2CEF125E2446F7A900D2FFC7 /* AppDelegate.swift */,
 				2CEF12602446F7A900D2FFC7 /* SceneDelegate.swift */,
-				2CEF12622446F7A900D2FFC7 /* ViewController.swift */,
-				2CEF12642446F7A900D2FFC7 /* Main.storyboard */,
 				2CEF12672446F7AA00D2FFC7 /* Assets.xcassets */,
 				2CEF12692446F7AA00D2FFC7 /* LaunchScreen.storyboard */,
 				2CEF126C2446F7AA00D2FFC7 /* Info.plist */,
@@ -159,7 +153,6 @@
 			files = (
 				2CEF126B2446F7AA00D2FFC7 /* LaunchScreen.storyboard in Resources */,
 				2CEF12682446F7AA00D2FFC7 /* Assets.xcassets in Resources */,
-				2CEF12662446F7A900D2FFC7 /* Main.storyboard in Resources */,
 				2C66D26D24C9924E0043D0DD /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,7 +164,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CEF12632446F7A900D2FFC7 /* ViewController.swift in Sources */,
 				2CEF125F2446F7A900D2FFC7 /* AppDelegate.swift in Sources */,
 				2C66D26524C990E20043D0DD /* HomeLocalDataManager.swift in Sources */,
 				2CEF12612446F7A900D2FFC7 /* SceneDelegate.swift in Sources */,
@@ -187,14 +179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2CEF12642446F7A900D2FFC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CEF12652446F7A900D2FFC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2CEF12692446F7AA00D2FFC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
